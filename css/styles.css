@@ -557,7 +557,7 @@ margin-bottom: 16px;
         padding: 8px 16px;
         font-weight: 400;
         font-size: 12px;
-
+background-color: transparent;
         line-height: 24px;
 
         letter-spacing: 0.04em;
@@ -631,12 +631,10 @@ min-width: 165px;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
         background: #fcfcfc;
         border-radius: 4px;
-        background: #fcfcfc;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: #fff;
         width: 408px;
         min-height: 584px;
         padding: 24px;
@@ -705,7 +703,9 @@ min-width: 165px;
         margin-bottom: 8px;
         position: relative;
 }
-
+.modal-wrap-brick-comment{
+        margin-bottom: 16px
+}
 .modal-icon {
         position: absolute;
         fill: #2e2f42;
@@ -730,8 +730,11 @@ min-width: 165px;
         color: #8e8f99;
         margin-bottom: 4px;
 }
-
+.modal-icon-wrap{
+        position: relative;
+}
 .modal-form-input {
+        line-height: 1.17;
         padding-left: 38px;
         margin-bottom: 8px;
         width: 100%;
