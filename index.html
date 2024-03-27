@@ -537,10 +537,10 @@
             <form class="modal-form">
 
 <div class="modal-wrap-brick">
-                <label class="modal-form-text" for="user-name">Name</label>
+                <label class="modal-form-text" name="user-name" for="user-name">Name</label>
                 <div class="modal-icon-wrap">
                     <input class="modal-form-input" id="user-name" type="text">
-                    <svg class="modal-icon" width="12" height="12">
+                    <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-menn"></use>
                     </svg>
                     </div>
@@ -550,7 +550,7 @@
                 <label class="modal-form-text" for="user-phon">Phone</label>
                 <div class="modal-icon-wrap">
                     <input class="modal-form-input" id="user-phon" type="number">
-                    <svg class="modal-icon" width="12" height="12">
+                    <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-phon"></use>
                     </svg>
                     </div>
@@ -560,7 +560,7 @@
                 <label class="modal-form-text" for="user-email">Email</label>
                 <div class="modal-icon-wrap">
                     <input class="modal-form-input" id="user-email" type="email">
-                    <svg class="modal-icon" width="12" height="12">
+                    <svg class="modal-icon" width="18" height="24">
                         <use href="./images/icons.svg#icon-mail"></use>
                     </svg>
                 </div>
@@ -569,12 +569,14 @@
 
 <div class="modal-wrap-brick-comment">
                 <label class="modal-form-text" for="user-comment">Comment</label>
-                <textarea class="modal-form-coment" id="user-comment"></textarea>
+                <textarea name="user-comment" placeholder="Text input" class="modal-form-coment" id="user-comment"></textarea>
 </div>
-                <input class="modal-check-btn visually-hidden" id="user-accept" type="checkbox">
+
+<div class="modal-check-wrap">
+                <input class="modal-check-btn visually-hidden" id="user-privacy" value="true" type="checkbox">
 
 
-                <label class="modal-accept-text" for="user-accept">
+                <label class="modal-accept-text" for="user-privacy">
                     <span class="modal-fake">
                         <svg class="modal-check " width="10" height="8">
                             <use href="./images/icons.svg#icon-gol"></use>
@@ -582,6 +584,7 @@
                     </span>
 
                     I accept the terms and conditions of the <a href="" class="modal-policy">Privacy Policy</a></label>
+                    </div>
                 <button class="modal-btn" type="submit">Send</button>
             </form>
         </div>
