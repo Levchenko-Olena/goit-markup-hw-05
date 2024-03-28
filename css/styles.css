@@ -778,7 +778,7 @@ fill: #4D5AE5;
 .modal-accept-text {
 
         /* fill: transparent;*/
-        line-height: 1.17;
+       
         font-size: 12px;
         display: flex;
         align-items: center;
@@ -787,6 +787,7 @@ fill: #4D5AE5;
         letter-spacing: 0.04em;
         color: #8e8f99;
         margin-bottom: 16px;
+        line-height: 1.17;
 }
 
 .modal-policy {
@@ -794,7 +795,7 @@ fill: #4D5AE5;
         cursor: pointer;
         text-decoration: underline;
         text-decoration-skip-ink: none;
-
+        line-height: 1.17;
 }
 
 .modal-fake {
